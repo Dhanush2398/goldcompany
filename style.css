@@ -292,6 +292,50 @@ body {
 }
 
 
+/* Counter Section */
+.counter-section {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.counter-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.counter-box:hover {
+    transform: scale(1.05);
+}
+
+.counter-box i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffd700; 
+}
+
+.counter-box h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.counter-box p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .counter-box {
+        margin-bottom: 20px;
+    }
+}
+
+
 /* Testimonial Section */
 .testimonial-section {
     background-color: #f8f9fa;

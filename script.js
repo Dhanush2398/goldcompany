@@ -1,3 +1,4 @@
+
 // Accordion functionality
 var acc = document.getElementsByClassName("accordion");
 for (var i = 0; i < acc.length; i++) {
@@ -11,5 +12,8 @@ for (var i = 0; i < acc.length; i++) {
         } else {
             panel.style.maxHeight = panel.scrollHeight + "px"; // Set max-height based on content
         }
-    });
+    });    
 }
+
+
+
