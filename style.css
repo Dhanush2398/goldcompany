@@ -374,7 +374,7 @@ body {
 .section-title {
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: #6b0000;
     margin-bottom: 40px;
 }
 
@@ -389,7 +389,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
     width: 300px;
     transition: transform 0.3s;
@@ -415,6 +415,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #6b0000;
 }
 
 .step p {
