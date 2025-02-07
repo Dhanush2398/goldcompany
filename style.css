@@ -81,7 +81,7 @@ body {
 
 @media (max-width: 480px) {
     .navbar-logo {
-        width: 100px;  
+        width: 90px;  
         height: 80px;   
     }
 }
