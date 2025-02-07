@@ -909,3 +909,51 @@ body {
         width: 100%;
     }
 }
+
+/* Back to Top Icon */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;  
+    right: 30px;   
+    background-color: #333; 
+    color: #ff0000; 
+    font-size: 28px; 
+    padding: 15px;
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(255, 13, 0, 0.8); 
+    transition: all 0.3s ease-in-out; 
+    text-align: center;
+    z-index: 9999; 
+    border: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.back-to-top:hover {
+    background-color: #111; 
+    color: #cc2500;  
+    box-shadow: 0 0 15px rgb(255, 30, 0); 
+    transform: translateY(-5px);
+}
+
+
+.back-to-top.hidden {
+    display: none;
+}
+
+
+.back-to-top:hover i {
+    font-size: 32px; 
+}
+
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 20px; 
+        right: 20px; 
+        font-size: 22px; 
+        padding: 12px; 
+    }
+}
